@@ -1,0 +1,14 @@
+windows + R
+cmd
+git --version
+git config --global user.name "Arturo"
+git config --global user.name
+git config --global user.email "correo@correo.com"
+git config --global user.ui true
+explorador + navegar a carpeta git + cmd 
+git init
+guardar como index.html
+git status           //on branch master
+git add index.html   //crea el staging index
+git commit -m "agregando index.html"
+git status
