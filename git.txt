@@ -9,6 +9,31 @@ explorador + navegar a carpeta git + cmd
 git init
 guardar como index.html
 git status           //on branch master
-git add index.html   //crea el staging index
-git commit -m "agregando index.html"
+git add index.html   //crea el staging index para enviar a version preparada
+git commit -m "agregando index.html"   //hacer commit de la version
 git status
+git add .
+git rm --cached index.html    //quitar del staging index
+crear archivo .gitignore en la carpeta con los nombres y extensiones a ignorar
+git log     //ver la lista de commits, moverse con barra, flechas y q para salir
+git log --stat
+cambiamos el archivo index.html
+git add index.html
+git commit -m "mejorando"
+git log --oneline
+git log --graph
+git log --oneline --graph --all
+cambio index.html meto un header
+git diff
+git diff HEAD    //ver libro parte fundamentos de git
+git diff b77bbf0 index.html   //diferencias de un commit con el archivo actual
+git add .
+git commit -m "agregamos header"
+git checkout 55947fd   //regresamos a commit anterior
+git log --oneline  //ojo solo salen los commits anteriores y sirve para ver donde estoy
+git branch
+git checkout master   //unimos las dos ramas (con los cambios y la master) y volvemos a la original master
+git merge   // para volver a master
+git checkout -b experimento //para crear otra rama (branch)
+
+
